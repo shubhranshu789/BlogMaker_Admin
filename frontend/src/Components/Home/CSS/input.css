@@ -1,0 +1,115 @@
+.join-our-team {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -2px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .lorem-ipsum-dolor3 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    line-height: 28px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .lorem-ipsum-dolor-sit-amet-co-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-9xs) 0 var(--padding-8xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--body-1-size);
+    color: var(--medium-grey);
+    font-family: var(--body-1);
+  }
+  .join-our-team-to-be-a-part-of-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    max-width: 100%;
+  }
+  .read-more1 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+    font-weight: 700;
+    font-family: var(--heading-h2);
+    color: var(--black);
+    text-align: left;
+    display: inline-block;
+    min-width: 78px;
+  }
+  .button-container,
+  .button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .button2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-29xl);
+    background-color: var(--yellow);
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .button2:hover {
+    background-color: var(--color-goldenrod-100);
+  }
+  .button-container {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .input-processor,
+  .join-content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .join-content {
+    width: 414px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+  }
+  .input-processor {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-109xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--heading-h2-size);
+    color: var(--black);
+    font-family: var(--heading-h2);
+  }
+  @media screen and (max-width: 1050px) {
+    .join-our-team {
+      font-size: var(--font-size-10xl);
+      line-height: 38px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .join-our-team {
+      font-size: var(--font-size-3xl);
+      line-height: 29px;
+    }
+    .join-content {
+      gap: var(--gap-base);
+    }
+    .input-processor {
+      padding-bottom: var(--padding-64xl);
+      box-sizing: border-box;
+    }
+  }

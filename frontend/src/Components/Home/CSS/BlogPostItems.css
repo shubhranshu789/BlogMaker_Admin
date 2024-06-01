@@ -1,0 +1,104 @@
+.httpswwwpexelscomphotop-icon {
+    width: 490px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    height: 50vh;
+  }
+  .figma-design-systems,
+  .technology {
+    position: relative;
+    display: inline-block;
+  }
+  .technology {
+    width: 183.4px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .figma-design-systems {
+    margin: 0;
+    width: 602.9px;
+    font-size: var(--heading-h2-size);
+    letter-spacing: -2px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: var(--heading-h2);
+    color: var(--black);
+    max-width: 100%;
+  }
+  .duis-aute-irure2 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+    color: var(--medium-grey);
+  }
+  .technology-parent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-lg);
+  }
+  .blog-post-items1,
+  .frame-wrapper,
+  .httpswwwpexelscomphotop-parent,
+  .technology-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-36xl) 0 0;
+    box-sizing: border-box;
+    min-width: 406px;
+  }
+  .blog-post-items1,
+  .httpswwwpexelscomphotop-parent {
+    flex-direction: row;
+  }
+  .httpswwwpexelscomphotop-parent {
+    flex: 1;
+    gap: var(--gap-13xl);
+  }
+  .blog-post-items1 {
+    width: 1148px;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--body-1-size);
+    color: var(--purple);
+    font-family: var(--body-1);
+  }
+  @media screen and (max-width: 1200px) {
+    .httpswwwpexelscomphotop-icon {
+      flex: 1;
+    }
+    .httpswwwpexelscomphotop-parent {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .figma-design-systems {
+      font-size: var(--font-size-10xl);
+      line-height: 38px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-wrapper {
+      min-width: 100%;
+    }
+    .httpswwwpexelscomphotop-parent {
+      gap: var(--gap-base);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .figma-design-systems {
+      font-size: var(--font-size-3xl);
+      line-height: 29px;
+    }
+  }

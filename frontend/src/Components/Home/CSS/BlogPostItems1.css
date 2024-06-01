@@ -1,0 +1,136 @@
+
+
+.custom-button {
+  background-color: #008cba; /* Blue background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the container inline-block */
+  font-size: 16px; /* Increase font size */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Pointer/hand icon */
+  transition: background-color 0.3s, transform 0.3s; /* Animation for hover effects */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.custom-button:hover {
+  background-color: #005f5f; /* Darker blue background on hover */
+  transform: scale(1.05); /* Slightly increase the size */
+}
+
+.custom-button:active {
+  background-color: #004040; /* Even darker blue on click */
+  transform: scale(0.95); /* Slightly decrease the size on click */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red background */
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.delete-button:active {
+  background-color: #b71c1c; /* Even darker red on click */
+}
+
+
+.httpswwwpexelscomphotot-icon {
+    width: 490px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    height: 50vh;
+  }
+  .design-tips-for,
+  .startup {
+    position: relative;
+    display: inline-block;
+  }
+  .startup {
+    width: 183.4px;
+    letter-spacing: 3px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .design-tips-for {
+    margin: 0;
+    width: 602.9px;
+    font-size: var(--heading-h2-size);
+    letter-spacing: -2px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: var(--heading-h2);
+    color: var(--black);
+    max-width: 100%;
+  }
+  .duis-aute-irure1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    line-height: 28px;
+    color: var(--medium-grey);
+  }
+  .startup-parent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-lg);
+  }
+  .blog-post-items,
+  .blog-post-items-inner,
+  .startup-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .blog-post-items-inner {
+    flex: 1;
+    flex-direction: column;
+    /* padding: var(--padding-36xl) 0 0; */
+    box-sizing: border-box;
+    min-width: 406px;
+  }
+  .blog-post-items {
+    width: 1146px;
+    flex-direction: row;
+    gap: var(--gap-13xl);
+    text-align: left;
+    font-size: var(--body-1-size);
+    color: var(--purple);
+    font-family: var(--body-1);
+  }
+  @media screen and (max-width: 1200px) {
+    .httpswwwpexelscomphotot-icon {
+      flex: 1;
+    }
+    .blog-post-items {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .design-tips-for {
+      font-size: var(--font-size-10xl);
+      line-height: 38px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .blog-post-items-inner {
+      min-width: 100%;
+    }
+    .blog-post-items {
+      gap: var(--gap-base);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .design-tips-for {
+      font-size: var(--font-size-3xl);
+      line-height: 29px;
+    }
+  }

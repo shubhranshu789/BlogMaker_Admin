@@ -1,0 +1,196 @@
+.all-categories {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: -2px;
+    line-height: 48px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .all-categories-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+  }
+  .background3 {
+    width: 296px;
+    height: 228px;
+    position: relative;
+    background-color: var(--yellow);
+    display: none;
+  }
+  .item-hover-child {
+    width: 48px;
+    height: 48px;
+    position: relative;
+  }
+  .lorem-ipsum-dolor1,
+  .startup1 {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+  }
+  .startup1 {
+    font-size: inherit;
+    letter-spacing: -1px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 97px;
+  }
+  .lorem-ipsum-dolor1 {
+    align-self: stretch;
+    font-size: var(--body-1-size);
+    line-height: 28px;
+    font-family: var(--body-1);
+    color: var(--medium-grey);
+  }
+  .item-hover,
+  .startup-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .startup-group {
+    align-self: stretch;
+    gap: var(--gap-9xs);
+  }
+  .item-hover {
+    flex: 1;
+    background-color: var(--white);
+    padding: var(--padding-13xl);
+    box-sizing: border-box;
+    gap: var(--gap-base);
+    min-width: 252px;
+    max-width: 296px;
+    border: 1px solid #cfcbcb;
+  }
+  .background4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid var(--medium-grey);
+    box-sizing: border-box;
+    opacity: 0.3;
+  }
+  .business-and-trade-1-icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .technology1 {
+    position: relative;
+    letter-spacing: -1px;
+    line-height: 40px;
+    font-weight: 700;
+    z-index: 1;
+  }
+  .lorem-ipsum-dolor2 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--body-1-size);
+    line-height: 28px;
+    font-family: var(--body-1);
+    color: var(--medium-grey);
+    z-index: 1;
+  }
+  .technology-group {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-9xs);
+  }
+  .item-parent,
+  .item1,
+  .technology-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .item1 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-13xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-base);
+    min-width: 252px;
+    max-width: 296px;
+  }
+  .item-parent {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-13xl);
+    font-size: var(--heading-h3-size);
+  }
+  .categories,
+  .categories-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .categories {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-29xl);
+  }
+  .categories-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-61xl) var(--padding-109xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--heading-h2-size);
+    color: var(--black);
+    font-family: var(--heading-h2);
+  }
+  @media screen and (max-width: 1050px) {
+    .all-categories {
+      font-size: var(--font-size-10xl);
+      line-height: 38px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .item-parent {
+      gap: var(--gap-base);
+    }
+    .categories {
+      gap: var(--gap-5xl);
+    }
+    .categories-wrapper {
+      padding-left: var(--padding-21xl);
+      padding-right: var(--padding-21xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .all-categories,
+    .startup1,
+    .technology1 {
+      font-size: var(--font-size-3xl);
+      line-height: 29px;
+    }
+    .startup1,
+    .technology1 {
+      line-height: 32px;
+    }
+    .categories-wrapper {
+      padding-bottom: var(--padding-64xl);
+      box-sizing: border-box;
+    }
+  }

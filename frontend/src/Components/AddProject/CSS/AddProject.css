@@ -1,0 +1,78 @@
+.addprojectBox{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+}
+.addProjectIneerBox{
+    width: 95%;
+    height: fit-content;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 10px;
+
+}
+
+.addProjectCard {
+    width: 350px;
+    height: 80vh;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.addProjectCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.addProjectContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.addProjectBtn {
+    margin-top: 20px;
+    padding: 15px 20px;
+    width: 95%;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addProjectBtn:hover {
+    background-color: #00b306;
+}
+
+.addProjectImage {
+    margin-top: 20px;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.addProjectImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.addProjectImage img:hover {
+    transform: scale(1.05);
+}

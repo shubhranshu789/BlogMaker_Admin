@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b3390261.css",
+    "main.js": "/static/js/main.fd06538b.js",
+    "static/js/453.8ab44547.chunk.js": "/static/js/453.8ab44547.chunk.js",
+    "static/media/beta.png": "/static/media/beta.6088e47be9827197b68d.png",
+    "static/media/techbrain.png": "/static/media/techbrain.59c69ac098c0580efab4.png",
+    "static/media/facebook.png": "/static/media/facebook.6c32263e014cae10f012.png",
+    "static/media/financial.jpg": "/static/media/financial.9d4fd914c26b3d332d29.jpg",
+    "static/media/instagram.png": "/static/media/instagram.9f73ecd84f503590957d.png",
+    "static/media/gama.png": "/static/media/gama.72107a35c19e58eba505.png",
+    "static/media/photo.JPG": "/static/media/photo.c83e6d13f8bcb9d01457.JPG",
+    "static/media/building.png": "/static/media/building.9fbdc2999b799989b889.png",
+    "static/media/alpha.png": "/static/media/alpha.9a955ccbe04f36502d64.png",
+    "static/media/others.JPG": "/static/media/others.592fca3516f88aad63e2.JPG",
+    "static/media/Technical.avif": "/static/media/Technical.5ae1b36a64c0b3e50bcf.avif",
+    "static/media/Economical.avif": "/static/media/Economical.36e05141f561c174c6ea.avif",
+    "static/media/lion.webp": "/static/media/lion.f8965ed2bd5ccdb9a26c.webp",
+    "static/media/linkedIn.png": "/static/media/linkedIn.712c4ce3d6be06644d11.png",
+    "static/media/other.png": "/static/media/other.9236146a1284c4fa7d7f.png",
+    "index.html": "/index.html",
+    "main.b3390261.css.map": "/static/css/main.b3390261.css.map",
+    "main.fd06538b.js.map": "/static/js/main.fd06538b.js.map",
+    "453.8ab44547.chunk.js.map": "/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3390261.css",
+    "static/js/main.fd06538b.js"
+  ]
+}
